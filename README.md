@@ -1,8 +1,11 @@
 # Library Management System
+
 Sistem untuk membantu mengelola perpustakaan, dalam peminjaman atau penyimpanan buku dengan berbagai detail.
 
 ## Mulai 
+
 ### Install PHP
+
 Untuk memulai install terlebih dahulu PHP >= 7.1.3 dengan Extension, dibawah ini:
 * OpenSSL 
 * PDO 
@@ -14,6 +17,7 @@ Untuk memulai install terlebih dahulu PHP >= 7.1.3 dengan Extension, dibawah ini
 * BCMath
 
 ### Clone Proyek
+
 Untuk clone proyek **Library Management System**, cukup *git clone*, seperti contoh dibawah ini:
 ```
 git clone git@github.com:BabyCode10/Library-Management-System.git
@@ -21,6 +25,7 @@ git clone git@github.com:BabyCode10/Library-Management-System.git
 Jangan lupa install terlebih dahulu **git**, untuk dapat meng-*clone*.
 
 ## Menjalankan 
+
 Untuk menjalankan terlebih dahulu kita *setup* dalam *.env* dengan masing-masing database, seperti dibawah ini:
 ```
 DB_CONNECTION=mysql // nama koneksi
@@ -36,6 +41,7 @@ php artisan migrate --seed
 ```
 
 ### Tes
+
 Untuk memulai jalankan perintah:
 ```
 php artisan serve
@@ -47,6 +53,7 @@ http://127.0.0.1:8000
 ```
 
 ### Masuk Admin Panel
+
 Untuk masuk ke dalam *admin panel*, cukup tambahkan */admin* pada *url browser*, seperti dibawah ini:
 ```
 http://localhost:8000/admin
@@ -58,5 +65,9 @@ password: password
 ```
 
 ## Authors
+
 * **Irfan Hadian** - *junior programmer*
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
